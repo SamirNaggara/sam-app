@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: sam-container
-          image: samcyl/sam-app:v2
+          image: samcyl/sam-app:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 80
